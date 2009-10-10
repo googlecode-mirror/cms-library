@@ -1,0 +1,8 @@
+php_flag display_errors On
+
+RewriteEngine On
+
+RewriteCond $1 ^(.+\..+)
+RewriteRule ^(.*)$ - [PT,L]
+
+RewriteRule ^(.*)$ index.php/$1 [PT,L]
