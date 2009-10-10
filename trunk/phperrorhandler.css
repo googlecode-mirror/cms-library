@@ -1,0 +1,33 @@
+.endfloat {
+	height: 0px;
+	border: none;
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+}
+
+.errorblock {
+	border: solid 1px #000;
+	padding: 3px;
+	margin-bottom: 5px;
+	background-color: #f0f0f0;
+}
+
+.errorblock .errorheader {
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+.errorblock .erroricon {
+	float: left;
+	margin-right: 3px;
+}
+
+.errorblock .metainfo {
+	float: right;
+	font-style: italic;
+}
+
+.errorblock .backtrace {
+	font-family: monospace;
+}
