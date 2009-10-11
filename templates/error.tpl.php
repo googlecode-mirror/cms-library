@@ -7,7 +7,7 @@
 	<?= $error["message"] ?>
 	<div class="endfloat"></div>
 	<? if (Options::debugMode()) { ?>
-	<hr />
+		<hr />
 		<div class="backtrace">
 			<table>
 			<? foreach ($error['backtrace'] as $bt_id => $bt_info) if ($bt_id > 0) { ?>
